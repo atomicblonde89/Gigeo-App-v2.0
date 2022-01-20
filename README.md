@@ -13,3 +13,9 @@ con el mismo contenido, pero para dispositivos de escritorio y una guía de esti
 algunos elementos usados en el diseño.
 Asimismo, en este mismo archivo comprimido se encuentran las imágenes usadas en el
 interior de la interfaz de usuario.
+
+### Mockups 
+[**Mobile**](https://github.com/atomicblonde89/Gigeo-App-v2.0/blob/gh-pages/assets/img/gigeo-mobile.pdf)
+
+[**Desktop**](https://github.com/atomicblonde89/Gigeo-App-v2.0/blob/gh-pages/assets/img/gigeo-desktop.pdf)
+
