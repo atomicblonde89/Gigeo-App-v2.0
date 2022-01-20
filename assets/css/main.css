@@ -11188,7 +11188,7 @@ p {
   align-content: center;
 }
 
-@media (laptop-view) {
+@media (min-width: 1200px) {
   .navbar__container {
     margin-left: 30px;
   }
@@ -11205,11 +11205,26 @@ p {
   .header__hr {
     margin-top: 0;
   }
-
-  .header__button {
-    display: block;
-    justify-content: flex-end;
+}
+.header__buttons {
+  margin-right: 7rem;
+}
+@media (max-width: 768px) {
+  .header__buttons {
+    display: none;
   }
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-brand {
+  width: 150px;
+}
+
+.logo {
+  width: 57%;
 }
 
 /*# sourceMappingURL=main.css.map */
