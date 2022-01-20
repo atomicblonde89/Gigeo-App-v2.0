@@ -1,0 +1,30 @@
+.header__buttons{
+
+    &--message{
+        background-color: #92DCE5;
+        border: none;
+        color: white;
+        padding: 0.7rem 1rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 300;
+        margin-right: 1rem;
+        width: 6rem;
+    }
+
+    &--follow{
+        background-color: #EF6461;
+        border: none;
+        color: white;
+        padding: 0.7rem 1rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 300;
+        width: 6rem;
+    }
+    
+}

@@ -1,0 +1,20 @@
+.main {
+    &__title {
+       @include margin-padding-title;
+       h2 {
+          font-size: 1.5rem;
+          @include mobile-xs-view {
+             text-align: center;
+          }
+       }
+    }
+    &__videos {
+       img {
+          @include sizing-img
+       }
+       .main--card {
+          @include propierties-videos
+       }
+    }
+ 
+ }

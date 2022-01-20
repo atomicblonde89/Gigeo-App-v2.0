@@ -1,0 +1,52 @@
+//BREAKPOINTS//
+
+// Mobile Screen //:
+@mixin mobile-xs-view {
+    @media (max-width:#{$max-mobile-xs}){
+        @content;
+    }   
+}
+@mixin mobile-view {
+    @media (max-width:#{$max-mobile}){
+        @content;
+    }   
+}
+// Tablet Screen //:
+@mixin tablet-view {
+    @media (max-width:#{$max-tablet}){
+        @content;
+    }   
+}
+//Desktop Screen//:
+@mixin laptop-view {
+    @media (max-width:#{$min-laptop}){
+        @content;
+    }   
+}
+
+//PROPIERTIES
+
+@mixin propierties-videos {
+    h3 {
+       font-size: $small;
+       font-weight: $bold;
+       margin-top: 15px;
+    }
+ }
+ 
+ @mixin sizing-img {
+    width: 100%;
+    object-fit: cover;
+    height: 155px;
+ }
+ 
+ @mixin margin-padding-title {
+    margin-top: 35px;
+    margin-bottom: 35px;
+ }
+ 
+ @mixin span-art {
+    font-size: $small;
+    font-weight: 400;
+    position: absolute;
+ }
